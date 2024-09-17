@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <header>
+    <div id="announcementModal" class="modal">
+        <div class="modal-content">
+            <span class="close">×</span>
+            <p>Important Announcement: Our new Orthopaedics and Joint Replacement (Bone) department is now open!</p>
+        </div>
+    </div>
+        <nav>
+            <ul>
+                <div class="logo">
+                    <img src="health.jpg" alt="logo">
+                </div>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li class="dropdown">
+                    <a href="#specialties" class="dropbtn">Specialties</a>
+                    <div class="dropdown-content">
+                        <a href="#ortho">Orthopaedics</a>
+                        <a href="#joint">Joint Replacement</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to Our Healthcare Center</h1>
+        <p>Your health is our priority. We provide top-notch medical services to ensure your well-being.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a leading healthcare provider with a commitment to delivering high-quality medical care. Our team of experienced doctors and healthcare professionals are dedicated to improving the health and well-being of our community.</p>
+        <p>Our state-of-the-art facilities and advanced medical technologies enable us to offer a wide range of services, from routine check-ups to specialized treatments.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need to schedule an appointment, please reach out to us:</p>
+        <p>Email: health@care.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 abc defgh, 12345</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>@ 2024 Healthcare Center. All rights reserved.</p>
+        <p>Follow us on:
+            <a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a> |
+            <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a> |
+            <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
