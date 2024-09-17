@@ -50,11 +50,10 @@ header nav a{
     animation: slider 15s linear infinite normal;
 }
 .hero .overlay {
-    /* grid-column: 1 / -1; */
     justify-self: center;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
-    /* animation: fade-in 2s ease; */
+    animation: fade-in 2s ease;
 }
 .hero .overlay h1{
     font-size: 36px;
