@@ -23,7 +23,7 @@ header{
     font-family: 'Style Script';
     font-weight: bold;
     color: white;
-    transition: font-size 1s ease-in-out;
+    transition: font-size 1.5s ease-in-out;
 }
 header nav ul{
     display: flex;
@@ -41,18 +41,17 @@ header nav a{
 }
 .hero {
     display: grid;
-    grid-template-columns: 1fr;
     grid-gap: 20px;
-    padding: 40px;
+    padding: 160px;
     background-image: url('hero-backround.jpg');
     background-size: cover;
     background-position: center;
-    animation: slider 15s linear infinite normal;
+    animation: slider 25s ease-in infinite;
 }
 .hero .overlay {
     justify-self: center;
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 20px;
+    padding: 30px;
     animation: fade-in 2s ease;
 }
 .hero .overlay h1{
@@ -61,7 +60,7 @@ header nav a{
     color: #fff;
 }
 .hero .overlay p{
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 18px;
     color: #fff;
 }
@@ -73,7 +72,12 @@ header nav a{
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 18px;
+    transition:1s ease-in;
     cursor: pointer;
+}
+.hero .overlay button:hover{
+    transition: background-image 1s ease-in;
+    background-image: linear-gradient(to right,orange,purple);
 }
 .destinations {
     padding: 50px;
