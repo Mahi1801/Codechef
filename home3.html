@@ -11,10 +11,10 @@
     <header>
     <div id="announcementModal" class="modal">
         <div class="modal-content">
-            <span class="close">×</span>
-            <p>Important Announcement: Our new Orthopaedics and Joint Replacement (Bone) department is now open!</p>
+            <span class="close">x</span>
+            <p>Announcement: Our Orthopaedics and Joint Replacement(Bone) facilities are now available  at our hospital. Book your appointment today!</p>
         </div>
-    </div>
+    </div>
         <nav>
             <ul>
                 <div class="logo">
@@ -35,8 +35,10 @@
     </header>
 
     <section id="hero">
-        <h1>Welcome to Our Healthcare Center</h1>
-        <p>Your health is our priority. We provide top-notch medical services to ensure your well-being.</p>
+        <div class="overlay">
+            <h1>Welcome to Our Healthcare Center</h1>
+            <p>Your health is our priority. We provide top-notch medical services to ensure your well-being.</p>
+        </div>
     </section>
 
     <section id="about">
@@ -51,11 +53,14 @@
         <p>Phone: +123 456 7890</p>
         <p>Address: 123 abc defgh, 12345</p>
         <form>
-            <label for="name">Name:</label>
+            <div class="feedback">
+                <h3>|| Please, give your valuable feedback ||</h3>
+            </div>
+            <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
+            <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
+            <label for="message">Message</label>
             <textarea id="message" name="message" required></textarea>
             <button type="submit">Submit</button>
         </form>
@@ -67,7 +72,9 @@
             <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a> |
             <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
         </p>
+        <p>Made by Mahi Singhal</p>
     </footer>
     <script src="script.js"></script>
 </body>
 </html>
+
